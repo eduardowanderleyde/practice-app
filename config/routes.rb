@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'home/index'
 
   get "/usuarios", to: "users#index"
   get "/inicio", to: "users#index"
